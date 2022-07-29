@@ -1,0 +1,12 @@
+ Pseudo code UDP server
+• Create socket
+• Bind socket to a specific port where clients can contact you
+• Loop
+(Receive UDP Message from client x)+
+(Send UDP Reply to client x)* • Close Socket
+
+
+ Pseudo code UDP client • Create socket
+• Loop
+(Send Message To Well-known port of server)+
+(Receive Message From Server) • Close Socket

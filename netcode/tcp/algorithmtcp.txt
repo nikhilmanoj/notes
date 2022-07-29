@@ -1,0 +1,17 @@
+ Pseudo code TCP client
+• Create socket, connectSocket
+• Do an active connect specifying the IP address and port number of server
+• Read and Write Data Into connectSocket to Communicate with
+server
+• Close connectSocket
+ 
+ 
+ Pseudo code TCP server
+• Create socket (serverSocket)
+• Bind socket to a specific port where clients can contact you
+• Register with the kernel your willingness to listen that on socket for client to contact you
+• Loop
+Accept new connection (connectSocket) Read and Write Data Into connectSocket to
+Communicate with client Close connectSocket
+End Loop
+• Close serverSocket
